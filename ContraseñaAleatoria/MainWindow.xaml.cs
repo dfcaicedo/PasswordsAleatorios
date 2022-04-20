@@ -54,7 +54,7 @@ namespace ContraseñaAleatoria
             ele.Add(numbers[q.Next(0, numbers.Count - 1)]);
             ele.Add(letras1[q.Next(0, letras1.Count - 1)]);
             ele.Add(letras2[q.Next(0, letras2.Count - 1)]);
-            for (int p = 4; p < 10; p++)
+            for (int p = 4; p < 9; p++)
             {
                 switch (q.Next(0, 4))
                 {
@@ -79,6 +79,11 @@ namespace ContraseñaAleatoria
                 cad = cad + ele[z];
                 ele.RemoveAt(z);
             }
+            char r = (char) q.Next(65,91);
+            if (q.Next(0,2)==0)
+                cad = r + cad;
+            else
+                cad = r.ToString().ToLower() + cad;
             this.Password.Text = cad;
             Clipboard.SetText(cad);
         }
