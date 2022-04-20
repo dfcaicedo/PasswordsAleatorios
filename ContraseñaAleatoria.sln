@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContraseñaAleatoria", "ContraseñaAleatoria\ContraseñaAleatoria.csproj", "{3FFDD61F-B01D-469C-B989-199E0905B516}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FFDD61F-B01D-469C-B989-199E0905B516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFDD61F-B01D-469C-B989-199E0905B516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFDD61F-B01D-469C-B989-199E0905B516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFDD61F-B01D-469C-B989-199E0905B516}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90673F4C-1F6E-456E-BBB5-E77381B97107}
+	EndGlobalSection
+EndGlobal
